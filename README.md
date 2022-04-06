@@ -20,9 +20,6 @@ on the `PIV` folder in the directory tree and selecting Add to Path > Selected f
 
 ### Generating PIV lab solutions
 Before starting the PIV analysis, the video of the flow must be processed into individual image. To do this, place the .mov video file in the `data/in` folder
-and run `videopreprocessing.m`. This script will process the video file into individual frames and save them in the `data/out' folder.
+and run `frame_grab.m`. This script will process the video file into individual frames and save them in the `data/out' folder.
 
-To generate the lab solutions, run `lab.m`. This script will process the images and generate plots as required by the lab handout.
-
-### Using the PIV package
-TODO
+To generate the lab solutions, run `lab.m`. This script will process the images and generate all plots as required by the lab handout.
